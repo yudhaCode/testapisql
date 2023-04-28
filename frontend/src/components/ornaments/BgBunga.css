@@ -1,0 +1,42 @@
+.ornament-mawar-satu,
+.ornament-mawar-dua {
+  width: 30%;
+  position: absolute;
+  z-index: 1;
+  /* animation-name: animasi-satu; */
+  /* animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
+}
+
+.ornament-mawar-satu {
+  /* top: -1.42rem; */
+  top: -100%; /* Set posisi awal gambar di atas container */
+  left: -1.42rem;
+  animation: slideFromTop 1s ease forwards; /* Tambahkan animasi untuk muncul dari atas */
+}
+
+@keyframes slideFromTop {
+  0% {
+    top: -100%; /* Set posisi awal animasi di atas container */
+  }
+  100% {
+    top: 0; /* Set posisi akhir animasi di dalam container */
+  }
+}
+
+.ornament-mawar-dua {
+  /* bottom: 0; Position the image at the bottom */
+  bottom: -100%;
+  right: 0; /* Position the image at the right */
+  animation: slideFromBottom 1s ease forwards; /* Tambahkan animasi untuk muncul dari bawah */
+}
+
+@keyframes slideFromBottom {
+  0% {
+    bottom: -100%; /* Set posisi awal animasi di bawah container */
+  }
+  100% {
+    bottom: 0; /* Set posisi akhir animasi di dalam container */
+  }
+}

@@ -1,0 +1,36 @@
+/* pengantin */
+
+.bismillah {
+  width: 100%;
+  max-width: 155px;
+}
+
+.salam-pembuka {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.avatar-pasangan {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.avatar-pasangan img {
+  width: 78%;
+  padding: 10px;
+  background-color: #808080;
+  border-radius: 50%;
+}
+
+.icon-cincin {
+  width: 12%;
+  max-width: 50px;
+  margin-top: 1.4rem;
+}
+
+.keterangan {
+  width: 92%;
+  max-width: 280px;
+}

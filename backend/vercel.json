@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/.*",
+      "dest": "server.js"
+    }
+  ],
+  "env": {
+    "MYSQL_HOST": "b9vt2uu46b9emc44fxb4-mysql.services.clever-cloud.com",
+    "MYSQL_USER": "utclevgvcox74gbi",
+    "MYSQL_PASSWORD": "fn2VglbIofgiE639BctY",
+    "MYSQL_DATABASE": "b9vt2uu46b9emc44fxb4"
+  }
+}

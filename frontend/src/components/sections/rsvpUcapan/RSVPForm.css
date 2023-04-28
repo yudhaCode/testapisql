@@ -1,0 +1,210 @@
+.rsvp-d {
+  z-index: 1;
+  position: relative;
+  margin: 1rem 0.8rem;
+  background-color: #87a0c5ff;
+  color: #ffffff;
+  padding: 2.4rem 1rem;
+  border-radius: 8px;
+  height: 80vh; /* Set tinggi elemen menjadi 100% dari viewport */
+  overflow-y: auto;
+}
+
+@media (max-width: 376px) {
+  .rsvp-d {
+    margin: 1rem;
+  }
+}
+
+.h2-rsvp {
+  font-weight: 500;
+  padding-bottom: 0.6rem;
+  color: #ffffff;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.rsvp-submit {
+  display: block;
+  margin-top: 10px;
+}
+
+#myForm {
+  margin-top: 1rem;
+}
+
+input[type="text"] {
+  margin-top: 6px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  border-radius: 4px;
+  background: #ffffff;
+  border: none;
+  padding: 8px 10px;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #87a0c5ff;
+}
+
+textarea {
+  height: 20vh;
+}
+
+.kehadiran ul {
+  display: flex;
+  cursor: pointer;
+  margin-top: 10px;
+  justify-content: start;
+}
+
+.kehadiran ul li {
+  display: flex;
+  padding: 8px 10px;
+  background-color: #646669ff;
+  border-radius: 3px;
+  text-align: center;
+  transition: all 0.5s ease;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+@media (max-width: 440px) {
+  .kehadiran ul {
+    justify-content: space-between;
+  }
+
+  .kehadiran ul li {
+    margin-right: 0;
+  }
+}
+
+.kehadiran ul li label {
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+#rsvp {
+  display: flex;
+  align-items: center;
+}
+
+.rsvp-submit {
+  background-color: #ffffff;
+  width: 100%;
+  font-weight: bold;
+  padding: 10px;
+  color: #444040;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Define the transition property with duration and easing */
+}
+
+.rsvp-submit:hover {
+  background-color: #646669ff;
+  color: #ffffff;
+}
+
+.input-wrapper {
+  margin-bottom: 22px;
+}
+
+.input-wrapper label {
+  font-weight: 500;
+}
+
+.input-wrapper textarea {
+  margin-top: 10px;
+}
+
+.small-text-rsvp {
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.list-ucapan {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.list-ucapan-text {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.list-ucapan-tgl-ucapan {
+  font-size: 0.9rem;
+  text-align: left;
+  font-weight: 300;
+}
+
+/*  */
+
+.radio-tile-group {
+  display: flex;
+  margin-top: 10px;
+  justify-content: start;
+}
+.radio-tile-group .input-container {
+  position: relative;
+  background-color: #929292;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.radio-tile-group .input-container .radio-button {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+.radio-tile-group .input-container .radio-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 8px 12px;
+  transition: transform 300ms ease;
+}
+
+.radio-tile-group .input-container .radio-tile-label {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.radio-tile-group .input-container .radio-button:checked + .radio-tile {
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  color: #444040;
+  font-weight: bold;
+  /* transform: scale(1.1, 1.1); */
+  border-radius: 4px;
+}
+
+.radio-tile-group
+  .input-container
+  .radio-button:checked
+  + .radio-tile
+  .radio-tile-label {
+  color: #444040;
+}

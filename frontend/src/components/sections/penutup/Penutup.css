@@ -1,0 +1,33 @@
+/* penutup */
+
+#penutup .ornament1 {
+  width: 100%;
+  max-width: 200px;
+}
+
+#penutup .penutup-text,
+.ar-rum,
+.salam-penutup {
+  font-size: 12px;
+}
+
+#penutup,
+.nama-orangtua-wrapper {
+  font-size: 13px;
+}
+
+#penutup .ar-rum {
+  text-align: center;
+  line-height: 1rem;
+  font-style: italic;
+}
+
+#penutup .salam-penutup {
+  line-height: 1.3rem;
+}
+
+#penutup .penutup-text,
+.ar-rum,
+.salam-penutup {
+  width: 90%;
+}

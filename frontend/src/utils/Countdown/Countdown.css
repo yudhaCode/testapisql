@@ -1,0 +1,18 @@
+.countdown-flex {
+  display: flex;
+  gap: 2rem;
+  z-index: 99;
+}
+
+.countdown-flex li div:first-child {
+  font-size: 32px;
+  margin-bottom: -6px;
+}
+
+.countdown-flex li div {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: #ffffff;
+  padding: 04px;
+}

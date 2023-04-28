@@ -1,0 +1,86 @@
+/* cover-undangan-wrapper */
+
+.height100-sampul {
+  height: 100vh;
+}
+
+.cover-undangan-wrapper {
+  /* display: none; */
+  display: block;
+  position: relative;
+  top: 0;
+  transition: top 1s ease;
+  z-index: 3;
+  background-color: rgba(234, 229, 226, 0.767);
+}
+
+.cover-undangan-wrapper.hide {
+  top: -100%;
+}
+
+.avatar-pengantin {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+@media (max-height: 620px) {
+  .avatar-pengantin {
+    display: none;
+  }
+}
+
+.buka-undangan {
+  width: 100%;
+  border: 1px solid rgb(146, 148, 151) !important;
+  /* Menambahkan efek blur */
+}
+
+.nama-pengantin-wrapper {
+  margin-bottom: 20px;
+}
+
+.nama-pengantin-wrapper .nama {
+  font-family: "Great Vibes";
+  font-size: 32px;
+}
+
+.nama-pengantin-wrapper .dan {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nama-pengantin-wrapper .nama.aiu,
+.dan {
+  margin-left: -42px;
+}
+
+.nama-pengantin-wrapper .nama.abdul-hakim {
+  margin-right: -28px;
+  margin-top: -28px;
+}
+
+.text-tamu {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 13px;
+  max-width: 280px;
+}
+
+button.buka-undangan {
+  padding: 10px;
+  color: #444040;
+  border-width: 0px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 1s ease;
+  z-index: 999;
+  background-color: #efefef;
+}
+
+button.buka-undangan:hover {
+  background-color: #444040;
+  color: #ffffff;
+}

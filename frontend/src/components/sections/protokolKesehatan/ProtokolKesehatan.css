@@ -1,0 +1,17 @@
+.protokol-kesehatan-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  z-index: 99;
+  position: relative;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.protokol-kesehatan-wrapper li {
+  margin-bottom: 20px;
+}
+
+.prokes-icon-img {
+  width: 12vh;
+}

@@ -1,0 +1,31 @@
+/* maps */
+.maps-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maps {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+}
+
+.maps-title {
+  text-align: center;
+  color: #87a0c5ff;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.3rem;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+.maps-location-desc {
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.3rem;
+  margin-top: 10px;
+  max-width: 80%;
+}

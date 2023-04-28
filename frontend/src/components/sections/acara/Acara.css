@@ -1,0 +1,47 @@
+/* acara */
+#acara .flower {
+  width: 100%;
+  max-width: 58px;
+}
+
+#acara .waktu-nikah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#acara .bulan {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+#acara .tanggal-nikah {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  align-items: center;
+  gap: 0.4rem;
+  margin-right: 0.8rem;
+}
+
+#acara .tanggal-nikah p:first-of-type,
+.tanggal-nikah p:last-of-type {
+  font-size: 20px;
+}
+
+#acara .tanggal-nikah p:nth-of-type(2) {
+  font-size: 32px;
+  padding: 0 0.8rem;
+  border-left: 2px solid #646669ff;
+  border-right: 2px solid #646669ff;
+}
+
+#acara .acara-title {
+  margin-bottom: -20px;
+}
+
+/*  */
+
+/*  */
