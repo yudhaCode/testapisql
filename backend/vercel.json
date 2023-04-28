@@ -8,8 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/undangan",
       "dest": "/undangan"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
     }
   ],
   "env": {
